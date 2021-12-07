@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: rgb(255, 238, 0);
+  font-family: sans-serif;
+}
+
+.clock {
+  font-size: 20rem;
+  text-align: center;
+  margin-top: 10rem;
+}
+
+button {
+  font-size: 2rem;
+  cursor: pointer;
+  width: 15rem;
+  height: 5rem;
+  border-radius: 1em;
+  border: none;
+  background-color: sandybrown;
+  transition: 0.5s;
+  margin: 1em;
+}
+
+button:hover {
+  background-color: rgb(131, 71, 19);
+}
+
+.control_btn {
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+  .clock {
+    font-size: 12rem;
+    margin-top: 20rem;
+  }
+}
+@media (max-width: 500px) {
+  .clock {
+    font-size: 6rem;
+  }
+
+  button {
+    margin: 0.5em;
+  }
+}
